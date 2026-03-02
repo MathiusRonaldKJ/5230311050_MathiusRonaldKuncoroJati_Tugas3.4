@@ -48,7 +48,7 @@ class _JadwalPageState extends State<JadwalPage> {
       backgroundColor: Colors.grey.shade50,
       appBar: AppBar(
         title: const Text('Jadwal Kuliah', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-        backgroundColor: const Color.fromARGB(255, 13, 131, 228),
+        backgroundColor: const Color.fromARGB(255, 0, 72, 255),
         foregroundColor: Colors.white,
         toolbarHeight: 50,
         leading: IconButton(
@@ -197,7 +197,7 @@ class _JadwalPageState extends State<JadwalPage> {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
             decoration: BoxDecoration(
-              color: Colors.blue.shade100, 
+              color: const Color.fromARGB(255, 169, 83, 255), 
               borderRadius: BorderRadius.circular(15),
               border: Border.all(
                 color: const Color.fromARGB(255, 73, 131, 178), 
@@ -206,7 +206,7 @@ class _JadwalPageState extends State<JadwalPage> {
             ),
             child: Text(
               '$jumlah Matkul',
-              style: TextStyle(color: Colors.blue.shade800, fontWeight: FontWeight.bold, fontSize: 12), 
+              style: TextStyle(color: const Color.fromARGB(255, 255, 255, 255), fontWeight: FontWeight.bold, fontSize: 12), 
             ),
           ),
         ],
