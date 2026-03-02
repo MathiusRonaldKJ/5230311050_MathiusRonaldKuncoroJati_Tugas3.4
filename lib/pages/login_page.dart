@@ -133,7 +133,7 @@ class _LoginPageState extends State<LoginPage> {
                               fillColor: Colors.grey.shade50,
                               contentPadding: const EdgeInsets.symmetric(
                                 horizontal: 12,
-                                vertical: 12, // Dikurangi dari 14
+                                vertical: 12, 
                               ),
                             ),
                             validator: (value) {
@@ -328,7 +328,7 @@ class _LoginPageState extends State<LoginPage> {
                                     child: const Text(
                                       'LOGIN',
                                       style: TextStyle(
-                                        fontSize: 14, // Diperkecil dari 16
+                                        fontSize: 14, 
                                         fontWeight: FontWeight.bold,
                                         color: Colors.white,
                                       ),
