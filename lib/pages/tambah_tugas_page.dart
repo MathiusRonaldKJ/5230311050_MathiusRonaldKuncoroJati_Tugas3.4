@@ -89,7 +89,7 @@ class _TambahTugasPageState extends State<TambahTugasPage> {
       backgroundColor: const Color.fromARGB(255, 164, 226, 254),
       appBar: AppBar(
         title: const Text('Tambah Tugas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-        backgroundColor: Colors.blue,
+        backgroundColor: const Color.fromARGB(255, 0, 72, 255),
         foregroundColor: Colors.white,
         toolbarHeight: 50,
         leading: IconButton(
@@ -137,7 +137,7 @@ class _TambahTugasPageState extends State<TambahTugasPage> {
                             height: 60, 
                             decoration: BoxDecoration(
                               gradient: const LinearGradient(
-                                colors: [Colors.blue, Colors.lightBlue],
+                                colors: [Color.fromARGB(255, 33, 150, 243), Color.fromARGB(255, 3, 169, 244)],
                               ),
                               shape: BoxShape.circle,
                             ),
@@ -308,7 +308,7 @@ class _TambahTugasPageState extends State<TambahTugasPage> {
                       child: ElevatedButton(
                         onPressed: _simpanTugas,
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.blue,
+                          backgroundColor: const Color.fromARGB(255, 7, 132, 235),
                           foregroundColor: Colors.white,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8),
@@ -338,7 +338,7 @@ class _TambahTugasPageState extends State<TambahTugasPage> {
                         child: const Text(
                           'Batal',
                           style: TextStyle(
-                            color: Colors.grey,
+                            color: Color.fromARGB(255, 103, 103, 103),
                             fontSize: 13,
                           ),
                         ),
