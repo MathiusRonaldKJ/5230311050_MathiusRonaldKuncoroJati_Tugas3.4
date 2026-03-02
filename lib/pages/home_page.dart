@@ -102,8 +102,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('TugasKu', style: TextStyle(fontSize: 18)),
-        backgroundColor: const Color.fromARGB(255, 16, 127, 217),
-        foregroundColor: Colors.white,
+        backgroundColor: const Color.fromARGB(255, 0, 72, 255),
+        foregroundColor: const Color.fromARGB(255, 255, 255, 255),
         toolbarHeight: 50,
         actions: [
           Stack(
@@ -187,7 +187,7 @@ class _HomePageState extends State<HomePage> {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [const Color.fromARGB(255, 135, 200, 246), const Color.fromARGB(255, 156, 195, 218)],
+          colors: [const Color.fromARGB(255, 88, 182, 249), const Color.fromARGB(255, 164, 226, 254)],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
         ),
@@ -226,7 +226,7 @@ class _HomePageState extends State<HomePage> {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [const Color.fromARGB(255, 135, 200, 246), const Color.fromARGB(255, 127, 182, 211)], 
+          colors: [const Color.fromARGB(255, 88, 182, 249), const Color.fromARGB(255, 164, 226, 254)], 
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
         ),
@@ -246,7 +246,7 @@ class _HomePageState extends State<HomePage> {
                       width: 150,
                       height: 150,
                       decoration: BoxDecoration(
-                        gradient: const LinearGradient(colors: [Colors.blue, Colors.blueAccent]),
+                        gradient: const LinearGradient(colors: [Color.fromARGB(255, 213, 213, 213), Color.fromARGB(255, 216, 216, 216)]),
                         shape: BoxShape.circle,
                         boxShadow: [BoxShadow(color: Colors.blue.withOpacity(0.3), blurRadius: 10)],
                       ),
@@ -293,7 +293,7 @@ class _HomePageState extends State<HomePage> {
                   style: OutlinedButton.styleFrom(
                     padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-                    side: BorderSide(color: Colors.blue.shade200),
+                    side: BorderSide(color: const Color.fromARGB(255, 0, 86, 156)),
                   ),
                 ),
                 const SizedBox(height: 16),
@@ -532,7 +532,7 @@ class _HomePageState extends State<HomePage> {
         icon: const Icon(Icons.add, color: Colors.white, size: 16),
         label: const Text('Tambah Tugas', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 13)),
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.blue,
+          backgroundColor: const Color.fromARGB(255, 52, 201, 2),
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           elevation: 2,
